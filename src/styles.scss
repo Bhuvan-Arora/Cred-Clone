@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'styles/variables';
+@import 'styles/utilities';
+
+@font-face {
+    font-family: "Gilroy-SemiBold"; 
+    src: local("Gilroy-SemiBold"), url(./assets/fonts/Gilroy-SemiBold.woff) format("woff"); 
+}
+
+body
+{
+    background-color: $clr-primary;
+    color: $clr-secondary;
+}
